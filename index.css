@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-image: url("images/basketbckgrnd.jpg");
+    background-size: cover;
+    text-align: center;
+    opacity: 0.9;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    color: white;
+    background: #1B2440;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+}
+.home-title,.guest-title{
+    position: relative;
+    width: 150px;
+    height: 35px;
+    font-family: 'Verdana';
+    font-size: 40px;
+}
+
+.home-score-box,.guest-score-box{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border-radius: 5px;
+    font-size: 90px;
+    
+}
+
+.btn{
+    padding: 8px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: #1B2440;
+    color: white;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+}
+#home-score-el , #guest-score-el{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.reset-btn{
+    margin-block-start: 20px;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: red;
+    text-shadow: 0px 0px 1px black;
+}
+.score-board{
+    text-align: center;
+    border-radius: 20px;
+    background: #1B2440;
+}
+.home-guest-design{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
